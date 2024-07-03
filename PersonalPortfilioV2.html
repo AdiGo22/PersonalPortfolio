@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio- Aditya Goswami</title>
+  <link rel = "stylesheet" href = "styleportfolio.css">
+  <link rel = "icon" href = "portfolio-favicon.jpg"> 
+</head>
+<body>
+  <div id="wrapper">
+
+       <div class="container">
+
+        <div class="navbar">
+
+               <div class="logo-container">
+                      <img src = "navLogo.jpg" class = "logo">
+                      <div class="logo-text">ditya Goswami </div>
+               </div>
+
+               <div class="nav-items">
+                <div><a href = "#projects">Projects</a></div>
+                <div><a href = "#skills">Skills</a></div>
+                <div><a href = "#contact">Contact Me</a></div>
+               </div>
+
+        </div>
+       
+
+       <div class="hero-section">
+        <div class="absolute faded-text">Aditya Goswami</div>
+
+       <div class="hero-section-left">
+
+          <div class="hero-section-heading">Hi! I'm Aditya Goswami</div>
+
+          <div class="hero-section-heading hero-section-sub-heading">
+          I am a <span class = "role"></span>
+        </div>
+
+          <div class="hero-section-description">
+           I'm a software developer and here is my portfolio website.
+           Here you'll learn about my journey as a software developer.
+          </div>
+          <a href="https://www.linkedin.com/in/adityagoswami2002/">
+            <div class="btn-pink" id = "btn">Hire Me</div></a>
+
+       </div>
+
+       <div class="hero-section-right">
+        <!--used multiple class div-->
+           <div class = "absolute icons icon-dots">
+             <img src = "dots.png" >
+           </div>
+           <div class = "absolute icons icon-cube">
+            <img src = "cube.png" >
+          </div>
+          <div class = "absolute icons icon-circle">
+            <img src = "circle.png" >
+          </div>
+          <div class = "absolute icons icon-zigzag">
+            <img src = "zigzags.png" >
+          </div>
+          <div class = "absolute icons icon-plus">
+            <img src = "plus.png" >
+          </div>
+          <div class = "user-image">
+            <img src = "UserImage.jpg" >
+          </div>
+       </div> 
+
+            
+  </div>
+
+  </div>
+
+  </div>
+  
+
+ 
+  <script src = "https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src = "https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role",{
+     strings: [
+      "Coder",
+      "Web Developer",
+      "FrontEnd Developer",
+      "Backend Developer",
+      "Full Stack Developer"
+     ],
+     loop:true,
+     typeSpeed: 100,
+     backSpeed: 80,
+     backDelay: 1000,
+    });
+  </script>
+
+   
+
+<div class="project-section" id = "projects">
+  <h2 class="page-header">Projects</h2>
+
+  <div class="project-container">
+      <div class="project-card" id="project1">
+          <div class="project-number project-number-right">01</div>
+          <div class="project-content">
+
+              <div class="project-skills-container">
+                  <img class="project-skill" src="HTML.png" alt="" />
+                  <img class="project-skill" src="CSS.png" alt="" />
+                  <img class="project-skill" src="Javascript.svg" alt="" />
+                  <img class="project-skill" src="Tailwind.png" alt="" />
+                
+              </div>
+
+              <h2 class="project-heading">FocusMate</h2>
+
+              <p class="project-subHeading">A one stop dashboard for students featuring all tools to help students stay motivated ,focussed and less distracted while studying
+              </p>
+              <div class="btn-grp">
+                <a href="https://focusmate.netlify.app">
+                  <button class="btn-pink btn-project">Read More</button></a>
+                  <a href="">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                  </a>
+                  <a href="https://focusmate.netlify.app">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+  
+
+    <div class="project-card" id="project2">
+      <div class="project-number project-number-left">02</div>
+      <div class="project-content project-content-left">
+
+          <div class="project-skills-container">
+              <img class="project-skill" src="HTML.png" alt="" />
+              <img class="project-skill" src="CSS.png" alt="" />
+              <img class="project-skill" src="Javascript.svg" alt="" />
+          
+              <img class="project-skill" src="Tailwind.png" alt="" />
+              <img class="project-skill" src="NodeJs.svg" alt="" />
+              
+          </div>
+
+          <h2 class="project-heading">ezpay</h2>
+
+          <p class="project-subHeading">A fintech solution enabling seamless customer payments, automated vendor payouts, and efficient working capital management for businesses.
+          </p>
+          <div class="btn-grp">
+            <a href = "https://github.com/AdiGo22/ezpay">
+              <button class="btn-pink btn-project">Read More</button></a>
+              <a href="https://github.com/AdiGo22/ezpay">
+              <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+             
+          </div>
+      </div>
+  </div>
+
+  <div class="project-card" id="project3">
+    <div class="project-number  project-content-right">03</div>
+    <div class="project-content">
+
+        <div class="project-skills-container">
+            <img class="project-skill" src="HTML.png" alt="" />
+            <img class="project-skill" src="CSS.png" alt="" />
+            <img class="project-skill" src="Javascript.svg" alt="" />
+            
+           
+        </div>
+
+        <h2 class="project-heading">HandMarked</h2>
+
+        <p class="project-subHeading">online marketplace for local artisans and craftsman to showcase their products directly to customers.
+        </p>
+        <div class="btn-grp">
+          <a href="https://handmarked.netlify.app">
+            <button class="btn-pink btn-project">Read More</button></a>
+            
+            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+            
+            <a href="https://handmarked.netlify.app">
+            <i title="Live Link" class="fa-solid fa-link icon"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+  </div>
+
+</div>
+
+<div class="container skills-container" id = "skills">
+  <div class="skill-fade-text">Skills</div>
+
+  <div class="skill-container-left">
+    <h2 class="skill-heading">
+      <span class = "caps">M</span>e and 
+      <br/>
+      My Tech Stack 
+    </h2>
+      <div class="skill-subHeading">
+        <br/>
+        <br/>
+        <h4>
+            Hi Everyone My name is Aditya Goswami and I am a Full Stack Web Developer I 
+            have recently graduated from Jss Academy Of Technical Education , Noida <br/>
+            Currently I am making new creative projects using my knowledge of Web Developing.<br/>
+            Go through the projects i have listed here on my portfolio with their links.
+        </h4>
+         
+      </div>
+  </div>
+
+
+  <div class="skill-container-right">
+    <img src = "blob vector.png" class="blob-style " alt="" />
+
+    
+  
+    <img src = "HTML.png" class="skills-logo"/>
+    <img src = "CSS.png" class="skills-logo"/>
+    <img src = "Javascript.svg" class="skills-logo"/>
+    <img src = "React.png" class="skills-logo"/>
+    <img src = "NodeJs.svg" class="skills-logo"/>
+    <img src = "Next.svg" class="skills-logo"/>
+    <img src = "Redux.svg" class="skills-logo"/>
+    <img src = "Tailwind.png" class="skills-logo"/>
+    <img src = "Bootstrap.svg" class="skills-logo"/>
+    <img src = "MaterialUI.svg" class="skills-logo"/>
+    <img src = "Git.svg" class="skills-logo"/>
+    <img src = "Express.png" class="skills-logo"/>
+    <img src = "Github.svg" class="skills-logo"/>
+    <img src = "Graphql.svg" class="skills-logo"/>
+    <img src = "MongoDB.svg" class="skills-logo"/>
+    <img src = "Vercel.svg" class="skills-logo"/>
+    <img src = "ChartJs.svg" class="skills-logo"/>
+    <img src = "Bash.svg" class="skills-logo"/>
+    <img src = "Docker.svg" class="skills-logo"/>
+    <img src = "K8s.svg" class="skills-logo"/>
+  </div>
+
+
+</div>
+
+
+
+
+<div class="contactus-form-container" id = "contact">
+    <div class="container">
+         <h1 class="contactus-heading">Contact Me</h1>
+         
+         <h3 class="contactus-sub-heading">Questions,thoughts,or just wanted to say hello!</h3>
+         
+         <div class ="contactus-form-container">
+          <form class = "form" action = "">
+            <div class="formfield-container">
+              <input class="formfield" type ="text" name="name"id=""placeholder="Enter your name" />
+
+              <input class="formfield" type ="email" name="email"id=""placeholder="Enter your email address" />
+
+              <input class="formfield" type ="text" name="subject"id=""placeholder="Enter your subject" />
+              
+              <textarea name = "message"
+              id = "" cols="30" rows="10"
+              class="formfield formfield-textarea"
+              placeholder="Enter your message"></textarea>
+
+
+            </div>
+            <div class="btn-pink" id = "btn">Send Message
+              <i class="submit-icon fa-solid fa-paper-plane"></i>
+            </div>
+
+          </form>
+         </div>
+    </div>
+</div>
+
+
+<footer>
+  <div class="container">
+    <div class="footer-wrapper">
+      <div class="footer-faded-text">Aditya Goswami</div>
+      <div class="link-wrapper">
+        <div>
+          <a href = "#projects">Projects</a>
+        </div>
+        <div>
+          <a href = "#skills">Skills</a>
+        </div>
+        <div>
+            <a href = "#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class = "icon-wrapper">
+        <a href="https://www.linkedin.com/in/adityagoswami2002/">
+        <i class = "fa-brands fa-linkedin icon"></i></a>
+        <a href="https://github.com/AdiGo22/ezpay">
+        <i class = "fa-brands fa-github icon"></i></a>
+        
+        <a href="https://www.instagram.com/go.aditya_/">
+        <i class = "fa-brands fa-instagram icon"></i></a>
+        <a href="mailto:aditya22goswami08@gmail.com">
+        <i class = "fa-regular fa-envelope icon"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+</body>
+</html> 
